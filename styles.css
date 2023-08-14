@@ -1,0 +1,70 @@
+body{
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+.justify-content-end{
+  background-color: black;
+}
+
+
+  
+.slide{
+  margin-left: 150px;
+  height: 100%;
+}  
+
+.vertical-menu {
+    width: 200px;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    position: fixed;
+    margin-bottom: 0%;
+    background: black;
+    top: 0;
+    left: 0%;
+    -webkit-transition: all .2s ease-in-out;
+    
+  }
+  
+  .vertical-menu a {
+     
+    color: aqua; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    text-decoration: underline; 
+  }
+  
+  .brand img{
+    width: 50%;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.btn-outline-primary{
+  height: 32px;
+  width: 150px;
+  position: absolute;
+  bottom: 1%;
+  right: 20%;
+  color: #ff4500;
+}
+
+.contentover{
+  left: 250px;
+  position: absolute;
+  right: 90px;
+  bottom: 0%;
+  
+}
